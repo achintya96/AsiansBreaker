@@ -53,7 +53,7 @@ teamcount=input('Enter teamcount: ')
 teamcount = int(teamcount)
 if ((teamcount) % 2 == 1):
     teamcount = (teamcount) + 1
-    print('ODD number bc, I\'m adding a swing')
+    print('ODD number sigh, I\'m adding a swing')
 
 for i in range(500):
     a=simulatetourney(teamcount,roundcount)
@@ -65,9 +65,10 @@ print(list) #all possible results
 breakcount=input('enter number of breaking teams: ')
 breakcount=int(breakcount)
 if breakcount>teamcount:
-    print('Dont be chuu')
+    print('You can\'t break that many lol, exiting')
     exit()
 
+    
 list=[i[::-1][0:breakcount-1] for i in list]
 print('Breaking teams:')
 print(list) #breaking teams
