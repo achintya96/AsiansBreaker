@@ -1,6 +1,6 @@
 # AsiansBreaker
 
-Enter teams, rounds and breaking teams- will show you a list of all outcomes all possible breaks.
+Enter teams, rounds and breaking teams- will show you a list of all outcomes and all possible breaks.
 Results in a list(array) in ascending order, with numbers denoting number of wins.
 
 Run pdtabcheck.py
