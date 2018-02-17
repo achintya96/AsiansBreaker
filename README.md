@@ -1,11 +1,12 @@
 # AsiansBreaker
-Enter teams, rounds and breaking teams- will show you a list of all outcomes all possible breaks
 
+Enter teams, rounds and breaking teams- will show you a list of all outcomes all possible breaks.
+Results in a list(array) in ascending order, with numbers denoting number of wins.
 
-Results in a list in ascending order, with numbers denoting number on win.
-
-
-(All matchups are power matchups)
+Run pdtabcheck.py
 Should run on any python platform, ultra lightweight (<1s of runtime)
 
-contact me on- achintya96@gmail.com for any queries 
+
+
+(Note: All matchups are power matchups)
+Contact me on- achintya96@gmail.com for any queries 
